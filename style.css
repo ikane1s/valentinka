@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'monplesir_scriptregular';
+    src: url('fonts/webfontkit-20240213-033339/monplesir_script-webfont.woff2') format('woff2'),
+         url('fonts/webfontkit-20240213-033339/monplesir_script-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background-image: url(images/back.jpg);
+    background-size: no-repeat;
+    font-family: 'monplesir_scriptregular';
+}
+
+button {
+    font-family: 'monplesir_scriptregular';
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.valentinka {
+    margin-top: 50px;
+}
+
+.valentinka__title, .victory__title {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: rgb(255, 76, 106);
+    text-shadow: 
+        -1px -1px 0 white,  
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        1px 1px 0 white;
+
+}
+
+.valentinka__img {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.button-yes-item {
+    margin-right: 30px;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 20px;
+    width: 150px;
+    height: 70px;
+    align-items: center;
+    border: 1px solid white;
+    background: rgb(255, 76, 106);
+    color: white;
+}
+
+.button-no {
+    position: relative;
+    transition: .5s;
+}
+
+.button-no-item {
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 20px;
+    width: 150px;
+    height: 70px;
+    align-items: center;
+    border: 1px solid white;
+    background: rgb(255, 76, 106);
+    color: white;
+}
+
+.victory__img {
+    display: flex;
+    justify-content: center;
+}
+
+.victory__img-item {
+    width: 300px;
+}
+
+.victory__title {
+    margin-top: 10px;
+}
+
+.we {
+    display: flex;
+    justify-content: center;
+}
+
+.we__item {
+    width: 800px;
+}
+
+.victory__text {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: rgb(255, 76, 106);
+    text-shadow: 
+        -1px -1px 0 white,  
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        1px 1px 0 white;
+}
